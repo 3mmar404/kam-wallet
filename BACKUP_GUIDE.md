@@ -1,0 +1,2 @@
+# Backup guide
+Export uses a canonical key-sorted JSON payload plus SHA-256 digest. Restore checks version, checksum, IDs and some transaction/account relations, previews counts and requests confirmation, then replaces all stores in one IndexedDB transaction. Backups contain unencrypted financial information. Full cross-entity schema validation and post-restore equivalence verification remain incomplete.

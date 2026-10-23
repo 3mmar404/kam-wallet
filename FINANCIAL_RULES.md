@@ -1,0 +1,2 @@
+# Financial rules
+Money represented as integer piasters. Opening balance is not income. Income adds, expense subtracts, transfer subtracts from source and adds to destination. Adjustment is signed and requires reason. Observations do not change expected balances. Expected includes archived accounts. Actual totals are incomplete when any account has no observation. Scenario calculator never writes ledger stores.
